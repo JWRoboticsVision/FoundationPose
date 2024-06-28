@@ -18,7 +18,9 @@ dist/
 # *.png
 # *.jpg
 debug/
-weights/*
+weights/*/*.pth
+weights/*/config.yml
+
 downloads/
 eggs/
 .eggs/
@@ -67,12 +69,10 @@ coverage.xml
 *.cover
 demo_data/
 debug/
-weights/
 *.py,cover
 .hypothesis/
 .pytest_cache/
 *.pth
-weights/
 # Translations
 *.mo
 *.pot
