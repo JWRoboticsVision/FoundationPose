@@ -95,7 +95,7 @@ conda create -n foundationpose python=3.10
 conda activate foundationpose
 
 # install dependencies
-python -m pip install -r requirements.txt
+python -m pip install --no-cache-dir -r requirements.txt
 
 # Install NVDiffRast
 python -m pip install --quiet --no-cache-dir git+https://github.com/NVlabs/nvdiffrast.git
